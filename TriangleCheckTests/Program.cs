@@ -48,14 +48,6 @@ while ((inputArgs = sr.ReadLine()) != null)
         sw.WriteLine("error");
     }
 }
-/*
-struct TestCase
-{
-    public string a;
-    public string b;
-    public string c;
-    public string result;
-}
-*/
+
 //C:\Users\user\source\repos\TIOPO\lab1\TriangleCheck\tests\TestSuccesCase.txt
 //C:\Users\user\source\repos\TIOPO\lab1\TriangleCheck\tests\TestErrorCase.txt
