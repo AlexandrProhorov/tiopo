@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-const string triangleTypeCheckAppName = "C:\\Users\\user\\source\\repos\\TIOPO\\lab1\\TriangleCheck\\TriangleCheck\\bin\\Debug\\net6.0\\TriangleCheck.exe";
+const string triangleTypeCheckAppName = "";
 const string outputResultFileName = "result.txt";
 
 
