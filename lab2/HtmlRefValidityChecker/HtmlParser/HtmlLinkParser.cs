@@ -58,7 +58,7 @@ class HtmlLinkParser
 
     public static bool IsSuccessStatusCode(int statusCode)
     {
-        return ((int)statusCode >= 200) && ((int)statusCode <= 299);
+        return ((int)statusCode >= 200) && ((int)statusCode <= 400);
     }
 
     private void TraversePagePath(Uri? uri)
