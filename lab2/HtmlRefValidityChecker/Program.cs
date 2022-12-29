@@ -1,7 +1,6 @@
 ﻿using HtmlRefValidityChecker.HtmlParser;
 using HtmlRefValidityChecker.Exceptions;
 
-// See https://aka.ms/new-console-template for more information
 
 Uri GetUriFromArgs(string[] args, uint argsCount = 1)
 {

@@ -37,12 +37,12 @@ class HtmlLinkParser
         return resultUri;
     }
 
-    private static Uri? TryGetUriWithAbsolutePath(string absolutePath)
+/*    private static Uri? TryGetUriWithAbsolutePath(string absolutePath)
     {
         Uri.TryCreate(absolutePath, UriKind.Absolute, out Uri? resultUri);
 
         return resultUri;
-    }
+    }*/
 
     public Uri GetUriWithLocalPath(string localPath)
     {
@@ -58,7 +58,7 @@ class HtmlLinkParser
 
     public static bool IsSuccessStatusCode(int statusCode)
     {
-        return ((int)statusCode >= 200) && ((int)statusCode <= 299);
+        return ((int)statusCode >= 200) && ((int)statusCode <= 400);
     }
 
     private void TraversePagePath(Uri? uri)
@@ -83,7 +83,7 @@ class HtmlLinkParser
         {
             TraversePagePath(TryGetUriWithLocalPath(pageUri, path));
 
-            TraversePagePath(TryGetUriWithAbsolutePath(path));
+            //TraversePagePath(TryGetUriWithAbsolutePath(path));
         }
     }
 }
