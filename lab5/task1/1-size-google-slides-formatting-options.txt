@@ -28,6 +28,7 @@ ReflectionTransparency: Default
 ReflectionDistance: Default
 ReflectionSize: Default
 
+
 IF [SizeWidthAbsolute] = 0.01 THEN [SizeWidthPercentage] = -1;
 IF [SizeWidthAbsolute] = 0.23 THEN [SizeWidthPercentage] = -1;
 IF [SizeWidthAbsolute] = 0.24 THEN [SizeWidthPercentage] = 1;
